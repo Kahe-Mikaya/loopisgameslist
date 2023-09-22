@@ -36,7 +36,7 @@ function adicionarJogo(nome, descricao, favorito, novoJogo, numero) {
   let h2Element = document.createElement("p");
   h2Element.classList.add("descricao_de_jogo");
   let buttonElement = document.createElement("button");
-  buttonElement.innerHTML = 'Remover';
+  buttonElement.innerHTML = '';
   buttonElement.onclick = function(event) {
     removerJogo(event);
   };
